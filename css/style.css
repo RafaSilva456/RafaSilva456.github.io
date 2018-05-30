@@ -1,8 +1,17 @@
-.tab{
-    width: 50%;
-    margin: 0 auto;
+.derecha{
+    text-align: right;
 }
 
-.div1{
-    text-align: right;
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subtitulo{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.espacio{
+    text-indent: 2cm;
 }
