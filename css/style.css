@@ -7,6 +7,10 @@
     font-weight: bold;
 }
 
+.tab{
+    width: 50%;
+    margin: 0 auto;
+}
 .subtitulo{
     font-size: 17px;
     font-weight: bold;
