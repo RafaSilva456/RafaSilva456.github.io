@@ -6,41 +6,44 @@
 
 @media (max-width: 600px) {
     .body {
-        background-color: blue;
+        background-color: chocolate;
     }
 }
 
 @media (max-width: 480px) {
     .body {
-        background-color: blue;
+        background-color: gold;
     }
 }
 
-#menu {
-    background-color: black;
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 25px;
+    }
+    .row.content {
+        height: auto;
+    }
 }
 
-#menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-#menu ul li {
-    display: inline-block;
-}
-
-#menu ul li a {
-    color: white;
-    display: block;
-    padding: 20px 20px;
-    text-decoration: none;
-}
-
-#menu ul li a:hover {
+.titulo {
     background-color: blue;
 }
 
-.ra {
-    float: right;
+.video1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+}
+
+.video1 video {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
